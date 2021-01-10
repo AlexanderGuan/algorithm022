@@ -1,10 +1,8 @@
 /*126 单词接龙II*/
 /*标准BFS解法，但是queue中保存的不是word，而是path*/
-/*本方法是标准BFS，没有用到任何其他它方法，方便像我一样的菜鸟理解。
+/*本方法是标准BFS，没有用到任何其他它方法。
 
-必须要注意的是，本方法中的queue所保存的是路径path( 即queue<vector<string>>)，而不是单词word(即queue<string>)。
-
-原答案地址：https://leetcode.com/problems/word-ladder-ii/discuss/40434/C%2B%2B-solution-using-standard-BFS-method-no-DFS-or-backtracking
+本方法中的queue所保存的是路径path( 即queue<vector<string>>)，而不是单词word(即queue<string>)。
 */
 #include <iostream>
 #include <vector>
