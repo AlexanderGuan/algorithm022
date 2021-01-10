@@ -1,6 +1,6 @@
 /*126 单词接龙II*/
 /*标准BFS解法，但是queue中保存的不是word，而是path*/
-/*本方法是标准BFS，没有用到任何其他它方法。
+/*本方法是标准BFS，没有用到任何其他它方法。 
 
 本方法中的queue所保存的是路径path( 即queue<vector<string>>)，而不是单词word(即queue<string>)。
 */
